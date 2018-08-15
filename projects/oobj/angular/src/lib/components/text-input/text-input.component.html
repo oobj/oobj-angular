@@ -1,0 +1,9 @@
+<div class="form-group">
+  <label *ngIf="config.label" [for]="config.id">{{config.label}}</label>
+  <div class="input-group">
+    <input [id]="config.id" class="form-control" [readOnly]="config.readonly" [attr.disabled]="config.disabled ? '' : null" [formControl]="formControl"
+      [textMask]="maskConfig()" [placeholder]="config.placeholder" [type]="config.inputType">
+  </div>
+  <small *ngIf="config.helpMessage" id="{{config.id}}-helpMessage" class="form-text text-muted">{{config.helpMessage}}</small>
+  <small *ngIf="hasErrors()" id="{{config.id}}-errorMessage" class="invalid-feedback">{{errorMessage}}</small>
+</div>

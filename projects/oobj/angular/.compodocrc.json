@@ -1,0 +1,23 @@
+{
+  "hideGenerator": true,
+  "toggleMenu": [
+    "modules",
+    "components",
+    "directives",
+    "classes",
+    "injectables",
+    "interfaces",
+    "pipes",
+    "additionalPages"
+  ],
+  "disableSourceCode": true,
+  "disableDomTree": true,
+  "disableGraph": true,
+  "disableTemplateTab": true,
+  "disableCoverage": true,
+  "disablePrivate": true,
+  "disableProtected": true,
+  "disableInternal": true,
+  "disableLifeCycleHooks": true,
+  "disableRoutesGraph": true
+}

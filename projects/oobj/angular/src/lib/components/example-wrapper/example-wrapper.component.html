@@ -1,0 +1,28 @@
+<div class="component-demo">
+  <h2>{{title}}</h2>
+  <div class="car-body">
+      <ng-content></ng-content>
+  </div>
+  <div class="card">
+    <ngb-tabset>
+      <ngb-tab>
+        <ng-template ngbTabTitle>{{demoSection.typescript.filename}}</ng-template>
+        <ng-template ngbTabContent>
+          <oobj-code-text [code]="demoSection.typescript.source" [lang]="demoSection.typescript.language"></oobj-code-text>
+        </ng-template>
+      </ngb-tab>
+      <ngb-tab>
+        <ng-template ngbTabTitle>{{demoSection.template.filename}}</ng-template>
+        <ng-template ngbTabContent>
+          <oobj-code-text [code]="demoSection.template.source" [lang]="demoSection.template.language"></oobj-code-text>
+        </ng-template>
+      </ngb-tab>
+      <ngb-tab>
+        <ng-template ngbTabTitle>{{demoSection.style.filename}}</ng-template>
+        <ng-template ngbTabContent>
+          <oobj-code-text [code]="demoSection.style.source" [lang]="demoSection.style.language"></oobj-code-text>
+        </ng-template>
+      </ngb-tab>
+    </ngb-tabset>
+  </div>
+</div>
