@@ -16,12 +16,12 @@ export class TextInputDemoPageComponent implements OnInit {
     },
     template: {
       filename: 'text-input.component.html',
-      source: require('raw-loader!../../examples/text-input/text-input.component.html'),
+      source: require('!!raw-loader!../../examples/text-input/text-input.component.html'),
       language: 'html'
     },
     style: {
       filename: 'text-input.component.scss',
-      source: require('raw-loader!../../examples/text-input/text-input.component.scss'),
+      source: require('!!raw-loader!../../examples/text-input/text-input.component.scss'),
       language: 'scss'
     }
   };

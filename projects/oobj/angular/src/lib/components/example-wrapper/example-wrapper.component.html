@@ -1,9 +1,9 @@
-<div class="component-demo">
+<div class="p-1">
   <h2>{{title}}</h2>
-  <div class="car-body">
-      <ng-content></ng-content>
-  </div>
   <div class="card">
+    <div class="car-body p-3">
+        <ng-content></ng-content>
+    </div>
     <ngb-tabset>
       <ngb-tab>
         <ng-template ngbTabTitle>{{demoSection.typescript.filename}}</ng-template>

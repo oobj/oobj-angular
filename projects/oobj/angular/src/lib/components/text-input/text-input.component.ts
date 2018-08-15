@@ -17,7 +17,7 @@ export interface OobjTextInputComponentConfig {
 let nextUniqueId = 0;
  /**
   * Example of usage:
-  * <example-url>/oobj-angular/examples/text-input</example-url>
+  * <example-url>/oobj-angular/examples-text-input</example-url>
   */
 @Component({
   selector: 'oobj-text-input',

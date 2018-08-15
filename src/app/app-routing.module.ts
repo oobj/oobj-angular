@@ -4,10 +4,10 @@ import { TextInputDemoPageComponent } from './demos-pages/text-input-demo-page/t
 
 const routes: Routes = [
   {
-    path: 'examples',
+    path: '',
     children: [
       {
-        path: 'text-input',
+        path: 'examples-text-input',
         component: TextInputDemoPageComponent
       }
     ]
